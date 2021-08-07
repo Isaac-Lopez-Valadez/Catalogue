@@ -1,17 +1,19 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "backend Catalogue",
-  "main": "app.js",
-  "type":"module",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "start": "nodemon server.js"
   },
-  "author": "Isaac Lopez",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

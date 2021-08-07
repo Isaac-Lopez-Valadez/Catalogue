@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+## Catalogue ClickSuscribe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###  **descripción**
+Buen día compañeros de Compusolcuines, se completó esta prueba de replicar la página web Click Suscribe, esta prueba fue realizada con un frontEnd y un BackEnd.
+Por empezar se desarrolló el frontEnd con el framework de ReactJS el cual se decidió utilizar esta herramienta con el fin de demostrar mis habilidades y el dominio con
+el lenguaje.
+En realizar el BackEnd utilizamos NodeJS con el mismo fin de demostrar mis habilidades y completar un pequeño BackEnd con el manejo de las Api´s rest y bases de datos.
 
-## Available Scripts
+### Instalación
+Tendremos que clonar el repositorio o descargar el código, es necesario contar con node.js y mongodb de manera local.
 
-In the project directory, you can run:
+###Configuración de arranque
+Para arrancar el servidor node.js, tendremos que ejecutar en la carpeta root del frontEnd y backEnd el script "npm install" para poder instalar todas las librerías o 
+repositorios que necesitemos para el desarrollo.
+Una vez finalizada las instalación por parte del FrontEnd y BackEnd, ejecutamos el script "npm stat" en ambas carpetas para iniciar los dos servidores "FrontEnd y BackEnd".
 
-### `npm start`
+###EndPoins
+Este es el endpint para poder hacer uso de estos apis rest
+http://localhost:5000/api/products
+Solo como muestra del manejo de los productos que se solicitaron para este reto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+###Rutas del código
+Mi objetivo es mostrar un programa bien estructurado y bien definido, para esto se desarrolló todo en las carpetas backend y frontend en el cual contienen.
+frontend: contiene la carpeta src con los archivos index y app para el menejo de react, despues veremos las ceprtas services(para el manejo de apis rest),
+catalogue y user el cual fueron carpetas agregaras para el funcionamiento del reto.
+backend: contiene la carpeta src con el archivo server para iniciar el servidor y todas sus funciones necesarias, después veremos las carpetas controller, model, router, database, el cual este es el conjunto de nuestro backend.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##Fin
+Les agradezco mucho por esta oportunidad y espero tengan un excelente día,
+Saludos.
+**Isaac Said Lopez Valadez**
