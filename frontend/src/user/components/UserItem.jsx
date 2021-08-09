@@ -16,7 +16,7 @@ const UserItem = (props) => {
           <div className="user-item__info">
             <h2>{props.name}</h2>
             <h2>
-              {props.placeCount} {props.placeCount === 1 ? "Place" : "Places"}
+              {props.productCount} {props.productCount === 1 ? "Product" : "Products"}
             </h2>
           </div>
         </Link>
